@@ -13,4 +13,14 @@ build_search_index = false
 highlight_code = false
 
 [extra]
+nav = [
+  # { name = "Produkte", url = "/", new_tab = false},
+  { name = "Shop", url = "https://www.etsy.com/de/shop/Interkinactive", new_tab = true},
+  # { name = "Creative Coding", url = "/blog/", new_tab = false},
+  { name = "About", url = "/about-me/", new_tab = false},
+  { name = "Kontakt", url = "/contact/", new_tab = false}
+]
 # Put all your custom variables here
+
+[extra.author]
+name = "Jessica Stürmer"

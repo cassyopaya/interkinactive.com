@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container bg-white px-20 mx-auto ">
+        <h1 class="text-3xl font-medium pt-8 pb-4 font-oswald">
+            {{ page.title | safe }}
+        </h1>
+    {{ page.content | safe }}
+    <!-- {{ page.relative_path | safe }} -->
+    <!-- {{ page.toc }} -->
+
+    <!-- {% if page.earlier %}Previous article: {{ page.earlier.permalink }}{% endif %} -->
+    <!-- {% if page.later %}Next article: {{ page.later.permalink }}{% endif %} -->
+    </div>
+</section>
+{% endblock content %}
